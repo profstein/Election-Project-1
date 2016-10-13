@@ -88,7 +88,7 @@ html{
 
 /*Usually at least a bottom margin is given to separate paragraphs. font-size and font-family are inherited from body*/
 p{
-    margin: 0 0 0 0;
+    margin: 0 0 1em 0;
 }
 
 /*Set a default font-family for the headings*/
