@@ -28,7 +28,7 @@ html {
 img,video{
   width: auto; 
   height: auto;
-  max-width: 100%; 
+  max-width: 50%; 
 }
 
 
@@ -92,9 +92,8 @@ p{
 }
 
 /*Set a default font-family for the headings*/
-h1,h2,h3,h4,h5,h6{
-    font-family: serif; /*change to add a proper font stack */
-}
+/*change to add a proper font stack */
+
 
 /*
 Set the font-size of each heading individually
@@ -102,14 +101,16 @@ When you set the font-size also set the line-height.
 You may also want to set the top and bottom margins and padding
 */
 h1{
-    font-size:1em;
+    font-size:6em;
+    font-family:'Nunito', sans-serif;
     line-height: 1;
     margin: 0;
     padding: 0;
 }
 
 h2{
-    font-size:1em;
+    font-size:4em;
+    font-family:'Nunito', sans-serif;
     line-height: 1;
     margin: 0;
     padding: 0;
